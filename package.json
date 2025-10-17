@@ -1,0 +1,26 @@
+{
+  "name": "@bs-solutions/bastion-icons",
+  "version": "1.0.0",
+  "description": "Bastion UI SVG icons",
+  "license": "MIT",
+  "keywords": [
+    "ui-kit",
+    "bastion",
+    "skat",
+    "svg icons",
+    "icons"
+  ],
+  "type": "module",
+  "main": "./index.js",
+  "types": "types/svg.d.ts",
+  "files": [
+    "icons-common/",
+    "icons-mns/",
+    "index.js",
+    "types/"
+  ],
+  "scripts": {
+    "pack": "npm pack",
+    "publish": "npm run pack && npm publish"
+  }
+}
