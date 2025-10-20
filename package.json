@@ -1,8 +1,12 @@
 {
   "name": "@bs-solutions/bastion-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Bastion UI SVG icons",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bastion-RND/bastion-icons.git"
+  },
   "keywords": [
     "ui-kit",
     "bastion",
