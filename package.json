@@ -16,8 +16,9 @@
   ],
   "type": "module",
   "files": [
-    "icons-common/",
-    "icons-mns/"
+    "common/",
+    "device/",
+    "mns/"
   ],
   "scripts": {
     "pack": "npm pack",
