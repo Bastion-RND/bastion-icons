@@ -5,21 +5,18 @@ Bastion UI SVG icons
 ## Usage
 
 ```ts
-import Bast from '@bs-solutions/bastion-icons/icons-common/bast.svg';
+import Bast from '@bs-solutions/bastion-icons/bastion/bastion-logo-full.svg?react';
 ```
 
 ## React SVGR+VITE
 
 ```tsx
-import Bast from '@bs-solutions/bastion-icons/icons-common/bast.svg?react';
+import Bast from '@bs-solutions/bastion-icons/bastion/bastion-logo-full.svg?react';
 import { BastHeader } from '@bs-solutions/bastion-ui';
 
 export const Header: FC<THeaderProps> = ({ title, icon }) => (
-    <BastHeader fluid className='p-1 header'>
+    <BastHeader logo={Bast} fluid className='p-1 header'>
         <div className='c-white header__content'>
-            <div className='header__title mr-2'>
-                <Bast />
-            </div>
             <ContextMenu />
         </div>
     </BastHeader>
