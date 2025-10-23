@@ -16,9 +16,12 @@
   ],
   "type": "module",
   "files": [
+    "arrows/",
+    "bastion/",
     "common/",
     "device/",
-    "mns/"
+    "mns/",
+    "weather/"
   ],
   "scripts": {
     "pack": "npm pack",
